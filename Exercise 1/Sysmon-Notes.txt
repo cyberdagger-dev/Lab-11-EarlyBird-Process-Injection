@@ -1,0 +1,19 @@
+CreateRemoteThread - Page 437
+Process Hollowing - Right Below CreateRemoteThread
+EarlyBird - Right Below Process Hollowing
+
+Load each config file seperate to see detections for each process injection
+
+Example on how to install sysmon:
+sysmon64 -i [<configfile>]
+
+Example on how to change sysmon config file after changes are made:
+C:\Sysmon\Sysmon64.exe -c sysmon-config.xml
+
+Example on how to uninstall sysmon:
+sysmon64 -u [force]
+
+Example on how to 
+
+View events logs:
+Applications and Services -> Microsoft -> Windows -> Sysmon -> Operations
